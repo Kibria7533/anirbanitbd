@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/anirkyph/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R Gp $DEPLOYPATH
     
